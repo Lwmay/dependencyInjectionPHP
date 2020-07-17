@@ -1,0 +1,25 @@
+{
+    "name": "lwmay/dependency-injection",
+    "description": "Library Dependency injection - PSR 11",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lwmay",
+            "email": "may.laurent@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/container": "1.0.0"
+    },
+    "autoload": {
+        "lwmay\\DependencyInjection\\": "src/"
+    },
+    "autoload-dev": {
+        "lwmay\\DependencyInjection\\Test\\": "tests/"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
