@@ -14,10 +14,14 @@
         "psr/container": "1.0.0"
     },
     "autoload": {
-        "lwmay\\DependencyInjection\\": "src/"
+        "psr-4": {
+            "lwmay\\DependencyInjection\\": "src/"
+        }
     },
     "autoload-dev": {
-        "lwmay\\DependencyInjection\\Test\\": "tests/"
+        "psr-4": {
+            "lwmay\\DependencyInjection\\Tests\\": "tests/"
+        }
     },
     "require-dev": {
         "phpunit/phpunit": "^9.2"
